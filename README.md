@@ -45,8 +45,10 @@ The lot summary table was created:
 ### Results
 
 Design specification for the MechaCar suspension coils dictate that the standard deviation of the suspension coils must not exceed 10 PSI (variance of 100 PSI squared).
+
 If the analysis is performed on all 3 manufacturing lots, the design specifications are met, as the standard deviation of the total suspension coils' PSI is 7.89 PSI.
 However, drilling-down the analysis for each lot, it is shown that Lot 3 has a significant higher stndard deviation than lots 1 and 2. The standard deviarion of lot 3 is 13.05 PSI, value that exceeds the design specification, while the standard deviation of Lots 1 and 2 is 1.00 and 2.73 PSI, respectively.
+
 In conclusion, Lot 3 should be analyzed thoroughly, as it doesn't meet design specifications.
 
 
