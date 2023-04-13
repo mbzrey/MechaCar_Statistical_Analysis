@@ -2,10 +2,28 @@
 
 ## Linear Regression to Predict MPG
 
-Write a short summary using a screenshot of the output from the linear regression, and address the following questions:
-* Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-* Is the slope of the linear model considered to be zero? Why or why not?
-* Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+The MechaCar_mpg.csv file was loaded on RStudio correctly:
+
+![image](https://user-images.githubusercontent.com/113773420/231843552-da60eed5-9103-49cc-89a5-59ba871c2bf5.png)
+
+
+A multiple linear regression model was applied on the variables, selecting the "miles per gallon economy" ("mpg" column) as the dependent variable and all the others as the independent ones:
+
+![image](https://user-images.githubusercontent.com/113773420/231844473-02e2d780-979b-49e8-bcce-1f2085eebc77.png)
+
+
+Finally, a statistics summary was performed:
+
+![image](https://user-images.githubusercontent.com/113773420/231844843-d56e2c75-62a4-4146-b05c-31232f052efe.png)
+
+
+### Results
+
+The R-squared value of the linear regression model is 0.7149, which may be considered -barely- a correct model (roughly, 71.5% of the predictions will be correct when using this linear model). The acceptance range for the R-value must be defined depending on the accuracy required by each analysis/project.  
+
+Moreover, the slope of the linear model, there is sufficient evidence to state that it is not zero, due to the fact that the p-value of the multiple linear regression analysis is 5.35e-11 (a value very close to zero, lower than the commonly used significance level of 0.05).
+
+As for the independent variables of the model, the probability that each coefficient contributes a random amount of variance shows that vehicle length and ground clearance (as well as intercept) are statistically unlikely to provide random amounts of variance to the linear model. In other words, the vehicle length and ground clearance have a significant impact on miles per gallon economy.
 
 
 ## Summary Statistics on Suspension Coils
