@@ -55,7 +55,35 @@ In conclusion, Lot 3 should be analyzed thoroughly, as it doesn't meet design sp
 
 ## T-Test on Suspension Coils
 
-Briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
+Firstly, the t-test was performed on whether the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
+
+![image](https://user-images.githubusercontent.com/113773420/231870291-93f6b3ed-5978-4328-a6af-9810f843b5fc.png)
+
+
+Afterwads, additional t-tests were made to determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch.
+
+### Lot 1
+
+![image](https://user-images.githubusercontent.com/113773420/231871858-c4b8a26c-1e98-4978-8a28-14f032c6f2ff.png)
+
+
+### Lot 2
+
+![image](https://user-images.githubusercontent.com/113773420/231871968-238a0a6c-170a-4333-8e03-db5017825a33.png)
+
+
+### Lot 3
+
+![image](https://user-images.githubusercontent.com/113773420/231872149-64d524cf-aa4e-4661-b1fa-2829db04cd48.png)
+
+
+### Results
+
+The t-test to determine if all manufacturing lots are statistically different from the population mean of 1,500 PSI, provides a p-value of 0.0628, which means that there is not enough evidence to reject the null hypothesis, so the mean PSI of all manufacturing lots is similar tu 1,500 PSI.
+
+In a similar way than the analysis of the standard deviation on suspension coils, the analysis on the mean PSI of manufacturing lot 3 differs widely from manufacturing Lots 1 and 2. The p-value for Lot 1 is 1; for Lot 2 is 0.6072; and, for Lot 3 is 0.04168.
+
+Hence, while it can be stated that he mean PSI of manufacturing Lots 1 and 2 is similar to 1,500, the same cannot be stated for Lot 3.
 
 
 ## Study Design: MechaCar vs Competition
