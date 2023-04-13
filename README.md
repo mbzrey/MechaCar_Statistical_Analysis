@@ -32,15 +32,26 @@ The Suspension_Coil.csv file was loaded on RStudio correctly:
 
 ![image](https://user-images.githubusercontent.com/113773420/231850044-d6adf4b9-4919-4a04-8f4e-600664feec50.png)
 
+The total summary table was created:
+
+![image](https://user-images.githubusercontent.com/113773420/231855129-267f7b39-995c-4b5a-b477-fd63bcbd4708.png)
+
+
+The lot summary table was created:
+
+![image](https://user-images.githubusercontent.com/113773420/231854278-1ea05ca1-4b56-4562-aa55-3a65fc20aac1.png)
 
 
 ### Results
-Write a short summary using screenshots from your total_summary and lot_summary dataframes, and address the following question:
-* The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+Design specification for the MechaCar suspension coils dictate that the standard deviation of the suspension coils must not exceed 10 PSI (variance of 100 PSI squared).
+If the analysis is performed on all 3 manufacturing lots, the design specifications are met, as the standard deviation of the total suspension coils' PSI is 7.89 PSI.
+However, drilling-down the analysis for each lot, it is shown that Lot 3 has a significant higher stndard deviation than lots 1 and 2. The standard deviarion of lot 3 is 13.05 PSI, value that exceeds the design specification, while the standard deviation of Lots 1 and 2 is 1.00 and 2.73 PSI, respectively.
+In conclusion, Lot 3 should be analyzed thoroughly, as it doesn't meet design specifications.
 
 
 
-## T-Tets on Suspension Coils
+## T-Test on Suspension Coils
 
 Briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
 
