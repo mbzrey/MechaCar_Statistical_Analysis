@@ -28,8 +28,16 @@ As for the independent variables of the model, the probability that each coeffic
 
 ## Summary Statistics on Suspension Coils
 
+The Suspension_Coil.csv file was loaded on RStudio correctly:
+
+![image](https://user-images.githubusercontent.com/113773420/231850044-d6adf4b9-4919-4a04-8f4e-600664feec50.png)
+
+
+
+### Results
 Write a short summary using screenshots from your total_summary and lot_summary dataframes, and address the following question:
 * The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
 
 
 ## T-Tets on Suspension Coils
