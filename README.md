@@ -88,9 +88,23 @@ Hence, while it can be stated that he mean PSI of manufacturing Lots 1 and 2 is 
 
 ## Study Design: MechaCar vs Competition
 
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
-In your description, address the following questions:
-* What metric or metrics are you going to test?
-* What is the null hypothesis or alternative hypothesis?
-* What statistical test would you use to test the hypothesis? And why?
-* What data is needed to run the statistical test?
+In order to analyze MechaCar against the competition, several steps must be taken.
+
+For starters, it is mandatory to define the competition: which cars should be taken into account? Variables to look for may be, but not limited to:
+* price
+* drivetrain
+* engine
+* horsepower
+* torque
+* fuel/energy used
+* mile per gallon economy
+* length, width and height
+* interior equipment
+
+Metrics are to established and, afterwards, obtained from MechaCar and the competition. Those metrics should be the ones used to define the competition, as they are supposed to be relevant for the market objective. Metrics should also consider what MechaCar manufacturer wants to measure.
+
+Next step, once the data is gathered and arranged, statistical tests should be made to analyze whether the statistics from MechaCar are better than those from the competition. Faster acceleration, faster hot laps, higher horsepower and torque, better mile per gallon economy, etc. In order to do so, an analysis of means should be helpful, as it would allow to infer with statistics foundations if MechaCar is achieving set goals... or not. For example, being faster than the competition.
+
+When comparing MechaCar vs the competition on a one-on-one basis, a t-test should be the best option, but if the comparison is simulteanously against more than 1 competitor, the ANOVA test is the one that should be performed.
+
+As for the data itself, in order for the results to be valid, significance levels must be appropriate so that Level I errors won't be siginficative and the data sample must be large enough so that Level II errors won't bias the results of the test.
